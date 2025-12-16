@@ -117,6 +117,34 @@ These visualizations help in understanding performance differences at a glance.
 
 ---
 
+## Project Walkthrough (Screenshots)
+
+### Project Structure
+This shows the modular layout of the project and how responsibilities are separated.
+![Project Structure](screenshots/project_structure.png)
+
+### Running the Benchmark
+CLI execution using the configuration file.
+![CLI Benchmark Run](screenshots/cli_benchmark_run.png)
+
+### Benchmark Summary Output
+Final averaged metrics after benchmarking all models.
+![Benchmark Summary](screenshots/benchmark_summary.png)
+
+### Results Stored in CSV
+All raw metrics are persisted for later analysis and visualization.
+![Results CSV](screenshots/results_csv.png)
+
+### Latency Comparison
+Average inference latency comparison across models.
+![Latency Comparison](screenshots/latency_comparison.png)
+
+### Memory Usage Comparison
+Peak RAM usage comparison across models.
+![Memory Usage](screenshots/memory_usage.png)
+
+---
+
 ## How to Run (Local)
 
 Setup:
