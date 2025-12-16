@@ -1,0 +1,19 @@
+models:
+  - name: distilgpt2
+    max_tokens: 50
+
+  - name: gpt2-medium
+    max_tokens: 60
+
+  - name: facebook/opt-1.3b
+    max_tokens: 60
+
+dataset:
+  path: data/prompts.jsonl
+
+output:
+  results_file: outputs/results.csv
+  plots_dir: outputs/
+
+device: auto
+

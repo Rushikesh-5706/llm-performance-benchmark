@@ -1,0 +1,11 @@
+transformers>=4.40.0
+torch
+pandas
+psutil
+pynvml
+tqdm
+pyyaml
+matplotlib
+plotly
+accelerate
+

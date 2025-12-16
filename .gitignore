@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
+
+# Outputs generated after running benchmark
+outputs/
+
+# Hugging Face cache (just in case)
+.cache/
+
