@@ -33,27 +33,33 @@ High-level flow:
 
 Project structure:
 
-llm-performance-benchmark/
-├── benchmark/
-│   ├── config_loader.py
-│   ├── data_loader.py
-│   ├── model_runner.py
-│   ├── metrics.py
-│   ├── quality.py
-│   └── reporter.py
-├── configs/
-│   └── benchmark.yaml
-├── data/
-│   └── prompts.jsonl
-├── outputs/
-│   ├── results.csv
-│   ├── latency_comparison.png
-│   └── memory_usage.png
+llm-performance-benchmark
+├── benchmark
+│ ├── config_loader.py
+│ ├── data_loader.py
+│ ├── metrics.py
+│ ├── model_runner.py
+│ ├── quality.py
+│ └── reporter.py
+├── configs
+│ └── benchmark.yaml
+├── data
+│ └── prompts.jsonl
+├── outputs
+│ ├── results.csv
+│ ├── latency_comparison.png
+│ └── memory_usage.png
+├── screenshots
+│ ├── project_structure.png
+│ ├── cli_benchmark_run.png
+│ ├── benchmark_summary.png
+│ ├── results_csv.png
+│ ├── latency_comparison.png
+│ └── memory_usage.png
 ├── cli.py
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
-
 ---
 
 ## Models Benchmarked
