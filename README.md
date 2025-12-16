@@ -31,31 +31,32 @@ High-level flow:
 5. Save results to a CSV file
 6. Generate visual reports from the collected results
 
-Project structure:
+## Project Structure
 
+```text
 llm-performance-benchmark
 ├── benchmark
-│ ├── config_loader.py
-│ ├── data_loader.py
-│ ├── metrics.py
-│ ├── model_runner.py
-│ ├── quality.py
-│ └── reporter.py
+│   ├── config_loader.py
+│   ├── data_loader.py
+│   ├── metrics.py
+│   ├── model_runner.py
+│   ├── quality.py
+│   └── reporter.py
 ├── configs
-│ └── benchmark.yaml
+│   └── benchmark.yaml
 ├── data
-│ └── prompts.jsonl
+│   └── prompts.jsonl
 ├── outputs
-│ ├── results.csv
-│ ├── latency_comparison.png
-│ └── memory_usage.png
+│   ├── results.csv
+│   ├── latency_comparison.png
+│   └── memory_usage.png
 ├── screenshots
-│ ├── project_structure.png
-│ ├── cli_benchmark_run.png
-│ ├── benchmark_summary.png
-│ ├── results_csv.png
-│ ├── latency_comparison.png
-│ └── memory_usage.png
+│   ├── project_structure.png
+│   ├── cli_benchmark_run.png
+│   ├── benchmark_summary.png
+│   ├── results_csv.png
+│   ├── latency_comparison.png
+│   └── memory_usage.png
 ├── cli.py
 ├── Dockerfile
 ├── requirements.txt
